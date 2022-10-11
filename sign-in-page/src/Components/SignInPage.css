@@ -1,0 +1,196 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: Montserrat;
+}
+body {
+  background-color: rgb(3, 2, 20);
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+span {
+  display: block;
+  font-size: 22px;
+  color: rgb(250, 62, 62);
+  margin: 5px 0 7px 0;
+  letter-spacing: 1px;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.TextLogo {
+  width: 610px;
+  height: 102px;
+  margin-top: 40px;
+}
+.ImgLogo {
+  width: 264px;
+  height: 274px;
+  padding-top: 1.5rem;
+}
+.main {
+  color: white;
+  /* background-color: red; */
+  margin: 4vh 25vw;
+}
+.signInHeading {
+  font-size: 58px;
+  font-weight: 500;
+  margin-bottom: 35px;
+  text-align: left;
+}
+.InputHeading {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 39px;
+  opacity: 90%;
+}
+.InputField {
+  border: 1px solid white;
+  width: 100%;
+  height: 5vh;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 34px;
+  padding: 20px;
+  margin: 20px 0;
+  transition: 0.2s all ease-in-out;
+}
+.InputField:hover {
+  transform: scale(1.04);
+  border: 1px solid rgb(245, 204, 71);
+}
+.Input {
+  color: #fff;
+  font-size: 25px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: rgb(3, 2, 20);
+  padding-left: 15px;
+}
+.heading-small {
+  font-size: 24px;
+  opacity: 90%;
+  margin: 18px 0;
+}
+.SignInBtn {
+  padding: 20px 40px;
+  border-radius: 50px;
+  font-size: 24px;
+  font-weight: 600;
+  display: block;
+  margin: 3vh 0 2vh 0;
+  border: none;
+  cursor: pointer;
+}
+.SignInBtn:hover {
+  transform: scale(1.05);
+  background-color: rgb(245, 204, 71);
+}
+.heading-signUp {
+  color: rgb(245, 204, 71);
+  padding: 0 10px;
+  font-weight: 600;
+  font-size: 24px;
+  cursor: pointer;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/*======================================================================================================
+ media Queries
+ ====================================================================================================== */
+
+@media (max-width: 1500px) {
+  .TextLogo {
+    width: 413px;
+    height: 71px;
+    margin-top: 23px;
+  }
+  .ImgLogo {
+    width: 124px;
+    height: 144px;
+  }
+  .signInHeading {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  span {
+    font-size: 13px;   
+  }
+  .InputHeading {
+    font-size: 17px;
+  }
+  .InputField {
+    font-size: 20px;
+    padding: 20px 15px;
+    margin: 3px 0;
+  }
+  .Input {
+    font-size: 15px;
+  }
+  .heading-small {
+    font-size: 13px;
+  }
+  .SignInBtn {
+    padding: 10px 20px;
+    font-size: 14px;
+    margin: 27px 0 10px 0;
+  }
+
+  .heading-signUp {
+    font-size: 16px;
+  }
+}
+@media (max-width: 500px) {
+  .TextLogo {
+    width: 270px;
+    height: 45px;
+  }
+  .ImgLogo {
+    width: 104px;
+    height: 124px;
+  }
+  span {
+    font-size: 12px;   
+  }
+  .signInHeading {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  .InputHeading {
+    font-size: 14px;
+  }
+  .InputField {
+    font-size: 20px;
+    padding: 18px 10px;
+  }
+  .Input {
+    font-size: 13px;
+  }
+  .heading-small {
+    font-size: 11px;
+  }
+  .SignInBtn {
+    padding: 8px 16px;
+    font-size: 13px;
+    margin: 25px 0 10px 0;
+  }
+
+  .heading-signUp {
+    font-size: 13px;
+  }
+}
