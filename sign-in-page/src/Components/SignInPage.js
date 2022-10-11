@@ -13,7 +13,6 @@ function SignInPage() {
 
     const { name, value } = e.target;
     SetFormValues({ ...FormValues, [name]: value });
-    console.log(FormValues);
 
   }
   const handleSubmit = (e) => {
@@ -42,7 +41,7 @@ function SignInPage() {
           <form>
             <p className='signInHeading'>Sign In </p>
 
-            <label className='InputHeading'>Username</label>
+            <label className='InputHeading'>Username/Email</label>
             <div className='InputField'>
               <ion-icon name="person" className="icon"></ion-icon>
               <input className='EmailInput Input' type='email' name='email' placeholder="Your Email"
