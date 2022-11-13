@@ -68,7 +68,7 @@ span {
 }
 .InputField:hover {
   transform: scale(1.02);
-  border: 1px solid rgb(245, 204, 71);
+  /* border: 1px solid rgb(245, 204, 71); */
 }
 .Input {
   color: #fff;
@@ -96,10 +96,10 @@ span {
 }
 .SignInBtn:hover {
   transform: scale(1.05);
-  background-color: rgb(245, 204, 71);
+  /* background-color: rgb(245, 204, 71); */
 }
 .heading-signUp {
-  color: rgb(245, 204, 71);
+  /* color: rgb(245, 204, 71); */
   padding: 0 10px;
   font-weight: 600;
   font-size: 24px;
